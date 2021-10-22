@@ -1,6 +1,8 @@
 spring:
     application:
         name: config
+    profiles:
+        active: produccion
     cloud:
         config:
             enabled: true
